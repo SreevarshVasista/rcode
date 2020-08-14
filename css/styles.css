@@ -1,0 +1,99 @@
+.banner{
+    position: relative;
+    text-align: center;
+}
+.challenges img{
+    width: 100%;
+    height: 100%;
+}
+.different{
+    height: 100%;
+}
+.questions{
+    height: 100%;
+}
+.clients{
+    height: 100%;
+}
+footer{
+    background-color: rgb(1, 13, 51);
+    height: auto;
+    padding-bottom: 5em;
+    align-items: center;
+}
+footer  h4
+{
+    font-family : Harabara;
+    color: #ffffff;
+    padding-top: 5%;
+    text-align: center;
+	font-size : 34px;
+	line-height : 45.79px;
+	letter-spacing : 3.4px;
+}
+.footer_links {
+    text-align: center;
+    font-family : Raleway;
+    font-size : 16px;
+    line-height : 32px;
+    padding-top: 2em;
+
+}
+.footer_links .link{
+    padding: 0em 2em;
+}
+.footer_links .link:hover{
+    color: #ffffff;
+    font-weight: bold;
+    text-decoration:none;
+}
+.social_media{
+    text-align: center;
+    padding-top: 3%;
+}
+.social_media .platform{
+    padding: 0em 1em;
+    color: #FFFFFF;
+}
+.sub_footer h5{
+    background-color: black;
+    text-align: center;
+    font-family : Raleway;
+    font-size : 13px;
+    line-height : 32px;
+    color : #FFFFFF;
+    color : rgb(255, 255, 255);
+    padding: 0em;
+    margin: 0em;
+}
+.banner .banner_text
+{
+	position: absolute;
+    top: 35%;
+	left: 10%;
+	text-align: left;
+	font-family : Mont HeavyDEMO;
+	font-size : 67px;
+	line-height : 83.47px;
+	color: #FFFFFF;
+}
+#nav_bar{
+	padding-right: 5%;
+}
+
+#nav_bar a
+{
+	font-family : Raleway;
+	font-size : 16px;
+	line-height : 32px;
+}
+
+.navbar-light .navbar-brand
+{
+	font-family : Harabara;
+	padding-left: 3%;
+	font-size : 30px;
+	line-height : 40px;
+	letter-spacing : 3px;
+	color: #115476;
+}
