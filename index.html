@@ -6,18 +6,27 @@
         <link rel="stylesheet" type="text/css" href="css/styles.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="css/bootstrap/css/bootstrap.min.css" />
-        <link rel="stylesheet" type="text/css" href="css/cru.css" />
-        <link rel="stylesheet" type="text/css" href="css/cru1.css" />
         <link rel="stylesheet" type="text/css" href="css/fontawesome/css/fontawesome.min.css" />
         <link rel="stylesheet" type="text/css" href="css/fontawesome/css/all.css" />
-
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script type="text/javascript" src="js/font-awesome.js"></script>
+        <script type="text/javascript" src="/css/bootstrap/js/jquery.min.js"></script>
+        <script type="text/javascript" src="/css/bootstrap/js/bootstrap.min.js"></script>
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <title>RecruitCode</title>
 
     </head>
     <body>
         <!-- Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
 
-            <a class="brand navbar-brand" href="#">recruitcode<i style="color: red;">.</i></a>
+            <a class="navbar-brand rcode" href="index.html">recruitcode<i style="color: red;">.</i></a>
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav_bar">
             <i class="navbar-toggler-icon"></i>
             </button>
@@ -29,10 +38,10 @@
                     <a class="nav-link" href="#">HOME</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">ABOUT US</a>
+                    <a class="nav-link" href="aboutus.html">ABOUT US</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">OUR SOLUTION</a>
+                    <a class="nav-link" href="our_solution.html">OUR SOLUTION</a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link" href="#">JOBS</a>
@@ -45,64 +54,194 @@
                   </li> 
                 </ul>
             </div>
-
         </nav>
         <!-- First banner -->
         <section class="banner">
+<<<<<<< HEAD
             <img src="images/banner-bg.png" alt="">
             <div class="banner_text">Your partner in<br>recruitment success</div>
-        </section>
-        <!-- about RecruitCode -->
-        <div class="about">
-            <img src="images/about-bg.png" alt="" style="width: 100%;">
-            <div class="container">
+=======
+            <div><img src="images/Asset 11.png" style="width: 100%;" alt=""></div>
+            <div class="banner_text">
+                <h1>Your partner in<br>recruitment success</h1>
             </div>
-        </div>
+>>>>>>> sreevarsh
+        </section>
+
+        <!-- about RecruitCode -->
+        <section class="about" style="overflow: hidden;">
+            <div class="about_img">
+                <div class="container">
+                    <div class="row" style="padding-top: 5%;">
+                        <div class="col col-md-5 col-lg-5">
+                            <img src="images/1x/about-grp.png" alt="" style="border-radius: 50%; margin-top:30%;">
+                        </div>
+                        <div class="col col-md-5 col-lg-7">
+                            <img src="images/3dots.png" alt="" style="padding-top: 5%;">
+                            <p id="about-text">Recruitcode is an alternative solution to the traditional approach of recruiting, providing you with an end-to-end talent acquisition suite on a subscription basis, where you pay for what you need. We’re changing the conversation, challenging conventional thinking and propelling organisations to new heights in the race to deliver the best talent. Working with startups, scale-ups and established brands, we help you to deliver ambitious hiring plans through our people, in partnership with yours.
+                            </p>
+                            <div class="row">
+                                <div class="col-3">
+                                    <p class="thick-bar"></p>
+                                </div>
+                                <div class="col-8">
+                                    <p id="text2">Unleashing agile resourcing models, with unrivalled capability and fresh thinking, we’re re-defining how 
+                                        companies view and embed resourcing capability. 
+                                        We combine Traditional Recruitment Models, 
+                                        Recruitment Marketing and Digital Resourcing solutions that deliver unparalleled results that flex with an 
+                                        organisation’s needs. Most importantly, we place your business at the heart of everything we do. Building, enhancing and amplifying your employer brand.
+                                        </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- Challenges in Recuitment -->
-        <section class="challenges">
-            <img src="images/3rd-section.png" alt="">
+        <section class="challenges" style="overflow: hidden;">
+            <div class="container">
+                <div class="row" id="row1">
+                    <div class="col-1">
+                        <p class="thick-bar"></p>
+                    </div>
+                    <div class="col-5">
+                        <h2>CHALLENGES<br>IN RECRUITMENT</h2>
+                        <h5>for growing companies</h5>  
+                    </div>
+                    <div class="col-6 d-flex justify-content-end" id="points">
+                        <ul>
+                            <li>Should I hire an in-house recruiter full-time?</li>
+                            <li>If I hire a recruiter full time what tools are required to make him successful and how much do those cost?</li>
+                            <li>Should I hire a contract recruiter or a freelance consultant?</li>
+                            <li>Should I hire a recruitment agency?</li>
+                        </ul>
+                    </div>
+                </div>    
+                <div class="row">
+                    <div class="col-4" id="tag-para">
+                        <p>When your business is growing, naturally so is your headcount. You are at the point you need help, and are often faced with the below dilemma </p>
+                    </div>
+                    <div class="col-7 justify-content-end" id="tag-para1">
+                        <p>All the above points are valid and the answers to these questions are effective to a certain extent. But did you ever think, if there was a solution that combines the flexibility of your in-house recruiter with the specialization of a recruitment agency, that is scalable and cost-effective at the same time. Look no further, we have the answer for you <br> - Team Recruitcode!</p>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- How are we different -->
         <section class="different">
-            <div class="container">
-
+            <div class="row">
+                <div id="cloud">
+                    <img src="images/cloud.png" alt="">
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4" id="diff">
+                            <h2>How are we different?</h2>
+                            <p>Recruitcode is a  truly flexible, low-cost solution that allows recruiting functions to stay lean and scale quickly. 
+                            </p>
+                            <p id="para2">Recruitcode is an end-to-end solution that supports companies during various growth points. It could be when a company is first building a recruiting team, has a spike in hiring volume, or looking to fill hard-to-fill niche roles. We supplement and co-manage your recruiting process and extend your staff as you grow your business with skilled, qualified talent.
+                            </p>
+                        </div>
+                        <div class="col-8 d-flex justify-content-end" id="diff1">
+                            <p>“But how does this save me time and money?”<br> 
+                                “How is Recruitcode different from other 
+                                recruiting services?” <br>
+                                <span style="color: red;">I’m glad you asked.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row" id="diff-sol">
+                        <div class="col-5" id="sol">
+                            <h2>Our Solution</h2>
+                            <p>At Recruitcode, we own the full recruitment life-cycle.</p>
+                            <p style="font-size : 15px;line-height : 20px;">We handle the technology, strategy and administrative tasks of your hiring process to provide you with the best talent. We live inside your organisation and tackle the world of hiring together. We know things can change quickly – we’re fast, flexible and adapt to your needs.</p>
+                        </div>
+                        <div class="col-7 d-flex justify-content-center">
+                            <img src="images/our-sol.png" alt="" style="border-top-right-radius: 30%; border-top-left-radius: 50%; border-bottom-right-radius: 50%;border-bottom-left-radius: 30%;">
+                        </div>
+                    </div>
+                </div> 
             </div>
         </section>
 
         <!-- Contingencies -->
-        <section class="questions">
+        <section class="questions" style="overflow: hidden;">
             <div class="container">
-
+                <div class="row">
+                    <div class="col-6">
+                        <h3 id="que">Contingent search Firms VS Recruitcode.</h3>
+                        <!-- add content here -->
+                        <h3 id="que" data-toggle="collapse" data-target="data1">Full - Time Recruiter VS Recruitcode.</h3>
+                        <div class="col-12 collapse show" id="data1">
+                            <p>Contingent search firms have insane hiring fees, that’s no secret. Using one to hire 10 people at a standard fee of 8.33% on 10,00,000 salary per hire equals 8.33 Lacs price tag. First, that's a lot of money.</p>
+                            <p>Second, because the recruiter is paid once the hire is made, it encourages contingency search firms to value quantity over quality when it comes to hiring, resulting in surface-level screenings, poor culture-fits, and low retention rates</p>
+                        </div>
+                    </div>
+                </div>
+                <h2 class="how">How does Recruitcode help?</h2>
+                <div class="row how_data">
+                    <div class="col-5">
+                        <p id="why">Instead of paying a year for a full-time recruiter, you could activate one of our curated packages when needed and be covered for the full 12 months.</p>
+                    </div>
+                    <div class="col-5">
+                        <p id="why">We bring a network of industry-focused, experienced recruiters. There’s no need to worry about paying for, or equipping our recruiters with the lastest recruiting resources. They come equipped with some of the best sourcing and recruiting tools in the industry, at no extra cost to you.
+                        </p>
+                    </div>
+                </div>
             </div>
         </section>
 
         <!-- Clients love us -->
-        <section class="clients">
+        <section class="clients" style="overflow: hidden;">
             <div class="container">
+                <h2>Our clients love us</h2>
+                <h5>Testimonials</h5>
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/full-cloud.png" alt="">
+                    </div>
+                    <div class="col d-flex justify-content-center">
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+                    </div>
+                    <div class="col-2">
+                    </div>
+                </div>
+                <div class="row sub_clients">
+                    <div class="col-2"></div>
+                    <div class="col">
 
+                    </div>
+                    <div class="col-2">
+                        <img src="images/faded-cloud.png" alt="">
+                    </div>
+                </div>
             </div>
         </section>
 
         <!-- Footer -->
-        <footer id="footer">
-            <h4>recruitcode.</h4>
-            <div class="footer_links">
-                <a href="#" class="link">HOME</a>
-                <a href="#" class="link">ABOUT US</a>
-                <a href="#" class="link">OUR SOLUTION</a>
-                <a href="#" class="link">JOBS</a>
-                <a href="#" class="link">BLOG</a>
-                <a href="#" class="link">CONTACT</a>
-            </div>
+        <footer style="overflow: hidden;">
+            <img src="images/companies.png" alt="" style="padding:2em 2em">
+            <div id="footer">
+                <h4>recruitcode.</h4>
+                <div class="footer_links">
+                    <a href="#" class="link">HOME</a>
+                    <a href="#" class="link">ABOUT US</a>
+                    <a href="#" class="link">OUR SOLUTION</a>
+                    <a href="#" class="link">JOBS</a>
+                    <a href="#" class="link">BLOG</a>
+                    <a href="#" class="link">CONTACT</a>
+                </div>
 
-            <div class="social_media">
-                <nav>
-                    <a class="platform" href="#"><i class="fab fa-facebook-f fa-lg"></i></a>
-                    <a class="platform" href="#"><i class="fab fa-linkedin-in fa-lg"></i></a>
-                    <a class="platform" href="#"><i class="fab fa-instagram fa-lg"></i></a>
-                </nav>
+                <div class="social_media">
+                    <nav>
+                        <a class="platform" href="#"><i class="fab fa-facebook-f fa-lg"></i></a>
+                        <a class="platform" href="#"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                        <a class="platform" href="#"><i class="fab fa-instagram fa-lg"></i></a>
+                    </nav>
+                </div>
             </div>
         </footer>
 

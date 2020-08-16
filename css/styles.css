@@ -1,21 +1,125 @@
-.banner{
-    position: relative;
-    text-align: center;
+nav #nav_bar
+{
+	padding-right: 5%;
 }
-.challenges img{
+.container{
+    padding: 2em 1em !important;
+}
+
+.about
+{
+    background-image: url(../images/about-bg.png);
+    height: 100%;
+    /* width: 100%; */
+    background-repeat: no-repeat;
+}
+.challenges{
+    background-image: url(../images/3rd-section.png);
+    background-repeat: none;
+    height: 100%;
+}
+.challenges #tag-para{
+    margin-top: 10%;
+    /* margin-left: 2px; */
+    padding:5%;
+    border-style: solid;
+}
+.challenges #tag-para1{
+    /* border-style: solid; */
+    margin-top: 15%;
+    margin-left: 8%;
+    padding-left: 13%;
+    font-family : Roboto Light;
+    font-size : 15px;
+    line-height : 22px;
+    color: grey;
+    /* margin-left: 20%; */
+}
+
+.challenges ul{
+    list-style-type: none;
+}
+
+.challenges #points{
+    padding-top: 1em;
+    /* padding-left: 5em; */
+}
+  
+ .challenges ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+nav #nav_bar a
+{
+	font-family : Raleway;
+	font-size : 16px;
+	line-height : 32px;
+}
+.rcode
+{
+	font-family : Harabara !important;
+	padding-left: 3% !important;
+	font-size : 30px !important;
+	line-height : 40px !important;
+	letter-spacing : 3px !important;
+	color: #115476 !important;
+}
+.banner
+{   
+    background-image: url(../images/banner-bg.png);
+    position: relative;
+}
+.challenges img
+{
     width: 100%;
     height: 100%;
 }
-.different{
+.challenges .thick-bar{
+    display: block;
+    width: 3em;
+    height: 9em;
+    background-color: rgb(255, 25, 0);
+    margin-left: 0em; 
+    margin-top: 0em;
+}
+.challenges h5{
+    font-family : Mont HeavyDEMO;
+    font-size : 22px;
+    line-height : 26px;
+    letter-spacing : 7.48px;
+    margin-top: 1em;
+}
+.challenges #row1 h2{
+font-family : Mont HeavyDEMO;
+  font-size : 50px;
+  line-height : 47px;
+  text-transform : uppercase;
+}
+.challenges .container{
+    /* margin-left: 5em; */
+}
+.challenges #row1{
+    margin-top: 5em;
+}
+.different
+{
     height: 100%;
 }
-.questions{
+.questions
+{
     height: 100%;
 }
-.clients{
+.clients
+{
     height: 100%;
 }
-footer{
+#footer
+{
     background-color: rgb(1, 13, 51);
     height: auto;
     padding-bottom: 5em;
@@ -31,31 +135,36 @@ footer  h4
 	line-height : 45.79px;
 	letter-spacing : 3.4px;
 }
-.footer_links {
+.footer_links 
+{
     text-align: center;
     font-family : Raleway;
     font-size : 16px;
     line-height : 32px;
     padding-top: 2em;
-
 }
-.footer_links .link{
+.footer_links .link
+{
     padding: 0em 2em;
 }
-.footer_links .link:hover{
+.footer_links .link:hover
+{
     color: #ffffff;
     font-weight: bold;
     text-decoration:none;
 }
-.social_media{
+.social_media
+{
     text-align: center;
     padding-top: 3%;
 }
-.social_media .platform{
+.social_media .platform
+{
     padding: 0em 1em;
     color: #FFFFFF;
 }
-.sub_footer h5{
+.sub_footer h5
+{
     background-color: black;
     text-align: center;
     font-family : Raleway;
@@ -66,7 +175,7 @@ footer  h4
     padding: 0em;
     margin: 0em;
 }
-.banner .banner_text
+.banner .banner_text h1
 {
 	position: absolute;
     top: 35%;
@@ -77,23 +186,214 @@ footer  h4
 	line-height : 83.47px;
 	color: #FFFFFF;
 }
-#nav_bar{
-	padding-right: 5%;
+#about-text{
+    font-family : Roboto Light !important;
+    font-size : 17px;
+    line-height : 23px;
+    color : #000000;
+    padding-top: 3%;
+
 }
 
-#nav_bar a
-{
-	font-family : Raleway;
-	font-size : 16px;
-	line-height : 32px;
+.thick-bar{
+    display: block;
+    width: 3em;
+    height: 9.6rem;
+    background-color: rgb(255, 25, 0);
+    /* background-color: rgba(149, 149, 149, .7); */
+    /* margin: 1em 2.4rem; */
+    margin-top: 3em;
+    margin-left: 6em;
+    }
+
+#text2{
+    padding-top: 2em;
 }
 
-.navbar-light .navbar-brand
+.different .diff-img{
+    padding-top:5em;
+}
+.different #cloud{
+    padding-top: 10em;
+    margin-right: 2em;
+}
+.different #diff {
+    padding-top: 3em;
+}
+#diff h2{
+    padding-top: 3em;
+    font-family : Poppins;
+    font-size : 33px;
+    line-height : 15px;
+}
+.different #diff p{
+    padding-top: 2em;
+    font-family : Mont HeavyDEMO;
+    font-size : 20px;
+    line-height : 22px;
+}
+.different #diff #para2{
+    font-family : Roboto Light;
+    font-size : 15px;
+    line-height : 20px;
+}
+.different #diff1{
+    padding-top: 6em;
+    font-family : Roboto Black;
+    font-size : 23px;
+    line-height : 40px;
+}
+.different #diff-sol #sol{
+    padding-top: 10%;
+}
+.different #diff-sol h2{
+
+    font-family : Mont HeavyDEMO;
+    font-size : 33px;
+    line-height : 15px;
+    text-transform : uppercase;
+}
+.different #diff-sol p{
+    padding-top: 1em;
+    font-family : Roboto Black;
+    font-size : 19px;
+    line-height : 22px;
+  
+}
+.questions{
+    margin-top: 20%;
+    background-color: rgb(49, 120, 200);
+}
+.questions #que{
+    font-family : Poppins;
+    font-size : 28px;
+    line-height : 30px;
+    color: white;
+    padding: 2em 0em;
+}
+.questions .how{
+    font-family : Roboto Medium;
+    font-size : 30px;
+    line-height : 20px;
+    color: white;
+    padding-top:2em;
+}
+.questions .how_data{
+    padding-top: 2em;
+}
+.questions #why{
+    font-size: 15px;
+}
+.questions p{
+    font-family : Roboto Light;
+    font-size : 15px;
+    line-height : 20px;
+    color: white;
+}
+.cards{
+    padding-top:10%;
+}
+
+.clients{
+    padding: 5em 0em;
+    text-align: center;
+}
+.clients h2{
+    font-family : Poppins;
+    font-size : 3em;
+    line-height : 15px; 
+    text-align: center;
+}
+.clients h5{
+    padding-top: 2em;
+    font-family : Poppins;
+    font-size : 18px;
+    line-height : 15px;
+    letter-spacing : 2.16px;
+    text-transform : uppercase;
+    color: grey;
+    text-align: center;
+}
+.clients .sub_clients{
+    padding-top:10%;
+}
+.clients p{
+    padding-top: 5em;
+}
+
+.numbers
 {
-	font-family : Harabara;
-	padding-left: 3%;
-	font-size : 30px;
-	line-height : 40px;
-	letter-spacing : 3px;
-	color: #115476;
+    font-family : Roboto Light;
+    font-size : 52px;
+    line-height : 72.02px;
+    padding: 1em 0em;
+}
+
+.number-text{
+    font-family : Roboto Light;
+    font-size : 20px;
+    line-height : 22px;
+    padding-top : 2.5em;
+    /* border-style: solid; */
+    margin-left: 1em;
+}
+.different #about-rcode, #talent{
+    font-size : 16px;
+    line-height : 22px;
+    font-family: Roboto Light;
+}
+.different #about-rcode p{
+    padding: 1em 0em;
+}
+.why h1
+{
+    font-family : Mont HeavyDEMO;
+  font-size : 30px;
+  line-height : 47px;
+  text-transform : uppercase;
+  text-align: center;
+}
+.why p{
+    font-family : Roboto Light;
+  font-size : 16px;
+  line-height : 22px;
+  margin: 1em 4em;
+}
+.services #serv{
+    padding-top: 2em;
+    margin-right: 5%;
+    font-family: Roboto Medium;
+    font-size: 24pt;
+    line-height: 28pt;
+}
+.challenges .img_text{
+    padding-top: 10%;
+}
+.challenges #head{
+    padding-top: 10%;
+}
+.different #diff-text{
+    padding-top: 10%;
+}
+#talent{
+    padding-left: 20%;
+}
+.different #solution{
+    margin: 20% 0%;
+    padding: 10em 0em;
+    height: 100%;
+}
+
+#sol-img{
+    padding-top: 0px;
+    margin-top: -10em;
+
+}
+.recruitment #mark p{
+    padding-top: 5%;
+    padding-bottom: 10%;
+
+}
+.recruitment{
+    background-color: rgb(238, 239, 240);
 }
